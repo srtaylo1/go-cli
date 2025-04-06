@@ -9,9 +9,6 @@ import (
 
 var rootCmd = &cobra.Command{
 	Use: "hello",
-	Run: func(cmd *cobra.Command, args []string) {
-		format.Fprintln(os.Stderr, "hello World")
-	},
 }
 
 func Execute() {
